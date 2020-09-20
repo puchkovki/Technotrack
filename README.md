@@ -1,1 +1,1 @@
-Run scrypt `run.sh` and input 3 values of coefficients
+Run scrypt `run.sh` with the name of the file executed and then input values
