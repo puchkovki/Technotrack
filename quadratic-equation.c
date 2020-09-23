@@ -18,17 +18,17 @@ AmountOfRoots solveEquation (const double a, const double b,
 
 int main (void) {
     // Coefficients of the equation
-    double a = 0.0;
-    double b = 0.0;
-    double c = 0.0;
+    double a = NAN;
+    double b = NAN;
+    double c = NAN;
     // Checking whether reading is correct
     if (scanf("%lf %lf %lf", &a, &b, &c) != 3) {
         printf("Cannot read numbers\n");
         return EXIT_FAILURE;
     }
 
-    double r1 = 0;
-    double r2 = 0;
+    double r1 = NAN;
+    double r2 = NAN;
     int roots = solveEquation(a, b, c, &r1, &r2);
 
     switch (roots) {
