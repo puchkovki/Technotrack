@@ -4,6 +4,14 @@
 #include <math.h>
 #include "solve_equation.hpp"
 
+//‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+//! @brief Entry point
+//!
+//! Execution of the program
+//! starts here.
+//!
+//! @return Program exit status
+//‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
 int main(void) {
     // Coefficients of the equation
     double a = NAN;

@@ -5,7 +5,7 @@
 #include "solve_equation.hpp"
 
 //‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
-//! Solves a square equation a*x^2 + b*x + c = 0
+//! @brief Solves a square equation a*x^2 + b*x + c = 0
 //!
 //! @param [in] a a‐coefficient
 //! @param [in] b b‐coefficient

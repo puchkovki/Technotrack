@@ -1,3 +1,0 @@
-[submodule "quadratic_equation/third-party/gtest"]
-	path = quadratic_equation/third-party/gtest
-	url = https://github.com/google/googletest
