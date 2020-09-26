@@ -1,1 +1,0 @@
-Run scrypt `run.sh` with the name of the file executed and then input values
