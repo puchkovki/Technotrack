@@ -1,8 +1,12 @@
 cmake_minimum_required(VERSION 3.4)
 
-project(quadratic_equation)
+include("cmake/HunterGate.cmake")
+HunterGate(
+    URL "https://github.com/cpp-pm/hunter/archive/v0.23.251.tar.gz"
+    SHA1 "5659b15dc0884d4b03dbd95710e6a1fa0fc3258d"
+)
 
-#include_directories(include)
+project(quadratic_equation)
 
 option(BUILD_TESTS "Build tests" OFF)
 
@@ -16,6 +20,9 @@ SET(MYCOMPILE_FLAGS "-Wall -Wextra -pedantic -O3 -Wshadow -Wformat=2 \
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${MYCOMPILE_FLAGS} -std=c++17 ")
 
+hunter_add_package(GTest)
+find_package(GTest CONFIG REQUIRED)
+
 add_library(solve_equation STATIC ${CMAKE_CURRENT_SOURCE_DIR}/source/solve_equation.cpp)
 target_include_directories(solve_equation PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -25,22 +32,11 @@ target_include_directories(solve_equation PUBLIC
 set(SOURCE_EXE ${CMAKE_CURRENT_SOURCE_DIR}/source/quadratic_equation.cpp)		# Установка переменной со списком исходников для исполняемого файла
 add_executable(main ${SOURCE_EXE})	# Создает исполняемый файл с именем main
 target_link_libraries(main solve_equation m)		# Линковка программы с библиотекой
-install(TARGETS main RUNTIME DESTINATION bin)
-
-install(TARGETS solve_equation
-    EXPORT solve_equation-config
-    ARCHIVE DESTINATION lib
-    LIBRARY DESTINATION lib
-)
-
-install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/ DESTINATION include)
-install(EXPORT solve_equation-config DESTINATION cmake)
 
 if(BUILD_TESTS)
     enable_testing()
-    add_subdirectory(third-party/gtest)
     file(GLOB ${PROJECT_NAME}_TEST_SOURCES tests/*.cpp)
     add_executable(check ${${PROJECT_NAME}_TEST_SOURCES})
-    target_link_libraries(check solve_equation gtest_main)
+    target_link_libraries(check solve_equation GTest::gtest_main)
     add_test(NAME check COMMAND check)
 endif()

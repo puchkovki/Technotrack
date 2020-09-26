@@ -1,0 +1,35 @@
+Start testing: Sep 26 18:15 EEST
+----------------------------------------------------------
+1/1 Testing: check
+1/1 Test: check
+Command: "/home/hp/Github/Technotrack/quadratic_equation/build/check"
+Directory: /home/hp/Github/Technotrack/quadratic_equation/build
+"check" start time: Sep 26 18:15 EEST
+Output:
+----------------------------------------------------------
+Running main() from /home/hp/.hunter/_Base/5659b15/2c824f9/8a1641b/Build/GTest/Source/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from Quadratic
+[ RUN      ] Quadratic.test_1
+[       OK ] Quadratic.test_1 (0 ms)
+[ RUN      ] Quadratic.test_2
+[       OK ] Quadratic.test_2 (0 ms)
+[ RUN      ] Quadratic.test_3
+[       OK ] Quadratic.test_3 (0 ms)
+[ RUN      ] Quadratic.test_4
+[       OK ] Quadratic.test_4 (0 ms)
+[----------] 4 tests from Quadratic (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"check" end time: Sep 26 18:15 EEST
+"check" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 26 18:15 EEST

@@ -1,21 +1,22 @@
 1. To build a project in current directory and to save it in folder `_build`:
 ```
-cmake -H. -B_build
+cmake -H. -Bbuild
 ```
-2. To build a project with tests in current directory and to save it in folder `_build`:
+2. Compile CMakelists, 
+Компиляции cnakelists, создание нужные папки и makefile
 ```
-cmake -H. -B_build -DBUILD_TESTS=ON  
+cmake -H. -Bbuild -DBUILD_TESTS=ON  
 ```
-3. 
+3. To build a project with tests in current directory and to save it in folder `_build`:
 ```
-cmake --build _build 
+cmake --build build 
 ```
 4. To run tests:
 ```
-_build/check
+build/check
 ```
 5. To run tests in details and save result into the `res/test.txt` file:
 ```
-cmake --build _build --target test -- ARGS=--verbose > res/test.txt
+cmake --build build --target test -- ARGS=--verbose > res/test.txt
 ```
 

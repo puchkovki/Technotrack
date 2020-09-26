@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/solve_equation.hpp
+stdio.h
+-
+stdlib.h
+-
+
+/home/hp/Github/Technotrack/quadratic_equation/source/solve_equation.cpp
+stdlib.h
+-
+math.h
+-
+assert.h
+-
+solve_equation.hpp
+/home/hp/Github/Technotrack/quadratic_equation/source/solve_equation.hpp
+

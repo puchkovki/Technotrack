@@ -1,0 +1,6 @@
+/home/hp/Github/Technotrack/quadratic_equation/build/CMakeFiles/rebuild_cache.dir
+/home/hp/Github/Technotrack/quadratic_equation/build/CMakeFiles/edit_cache.dir
+/home/hp/Github/Technotrack/quadratic_equation/build/CMakeFiles/test.dir
+/home/hp/Github/Technotrack/quadratic_equation/build/CMakeFiles/check.dir
+/home/hp/Github/Technotrack/quadratic_equation/build/CMakeFiles/main.dir
+/home/hp/Github/Technotrack/quadratic_equation/build/CMakeFiles/solve_equation.dir
