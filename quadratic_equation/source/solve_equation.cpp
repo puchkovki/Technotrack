@@ -4,6 +4,20 @@
 #include <assert.h>
 #include "solve_equation.hpp"
 
+//‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
+//! Solves a square equation a*x^2 + b*x + c = 0
+//!
+//! @param [in] a a‐coefficient
+//! @param [in] b b‐coefficient
+//! @param [in] c c‐coefficient
+//! @param [out] r1 Pointer to the 1st root
+//! @param [out] r2 Pointer to the 2nd root
+//!
+//! @return Number of roots
+//!
+//! @note In case of infinite number of roots,
+//! returns INFINITE_ROOTS.
+//‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
 // Solving the quadratic equation through the discriminant
 // Output — number of roots; -1 if the there an infinite roots
 AmountOfRoots solveEquation(const double a, const double b,
