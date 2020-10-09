@@ -1,0 +1,6 @@
+You've written in s_2 'Hi, I'm f.cking stuck! Why it's always me'.
+Length of this string is 41.
+2. Ok!
+You've written in s_3 'Hi, I'm f.cking stuck! Why it's always me?'.
+Length of this string is 42.
+3. Ok!
