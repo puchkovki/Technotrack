@@ -19,7 +19,7 @@ char* input(int* string_length) {
     *string_length = 0;  // изачальная длина любой строки - 0
     int capacity = 256;  // вместительность строки
 
-    char* s = (char*) malloc(capacity * sizeof(char));
+    char* s = (char*) calloc(capacity, sizeof(char));
 
     if (s == NULL) {
         fprintf(stderr, "input: cannot allocate memory\n");

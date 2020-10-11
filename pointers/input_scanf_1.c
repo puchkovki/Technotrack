@@ -5,7 +5,7 @@
 int input(char** str);
 
 int main(void) {
-    char* str = (char*) malloc(256 * sizeof(char));  // создаем динамический буфер
+    char* str = (char*) calloc(256, sizeof(char));  // создаем динамический буфер
     if (str == NULL) {
         fprintf(stderr, "input: cannot allocate memory\n");
         return EXIT_FAILURE;
