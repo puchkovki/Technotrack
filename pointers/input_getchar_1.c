@@ -33,8 +33,9 @@ int input(char** str) {
                                           // вместимости
             capasity *= 2;  // увеличиваем вместимость дважды
             (*str) = (char*) realloc(*str, capasity * sizeof(char));  // увеличиваем буфер
-            if (str == NULL) {
+            if (*str == NULL) {
                 printf("input: cannot reallocate the memory\n");
+                return -1;
             }
         }
 

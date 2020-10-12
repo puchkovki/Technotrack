@@ -18,7 +18,9 @@ int main(void) {
 char* input(int* string_length) {
     *string_length = 0;  // изачальная длина пустой строки - 0
     int capasity = 1;  // вместительность строки = 1, т.к. точно будет \0
+
     char* s = (char*) calloc(capasity, sizeof(char));  // создаем динамический буфер
+
     if (s == NULL) {
         fprintf(stderr, "input: cannot allocate memory\n");
         return NULL;
@@ -39,7 +41,7 @@ char* input(int* string_length) {
         }
         c = getchar();  // считываем символ для проверки
     }
+
     s[*string_length] = '\0';  // правильно завершаем строку
-    
     return s;  // возвращаем указатель на считанную строку
 }
