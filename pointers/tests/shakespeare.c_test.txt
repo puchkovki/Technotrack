@@ -1,0 +1,26 @@
+438
+You've written string 'Horatio says 'tis but our fantasy,'.
+Length of this string is 34.
+You've written string 'And will not let belief take hold of him'.
+Length of this string is 40.
+You've written string 'Touching this dreaded sight, twice seen of us:'.
+Length of this string is 46.
+You've written string 'Therefore I have entreated him along'.
+Length of this string is 36.
+You've written string 'With us to watch the minutes of this night;'.
+Length of this string is 43.
+You've written string 'That if again this apparition come,'.
+Length of this string is 35.
+You've written string 'He may approve our eyes and speak to it.'.
+Length of this string is 40.
+You've written string 'Tush, tush, 'twill not appear.'.
+Length of this string is 30.
+You've written string 'Sit down awhile;'.
+Length of this string is 16.
+You've written string 'And let us once again assail your ears,'.
+Length of this string is 39.
+You've written string 'That are so fortified against our story'.
+Length of this string is 39.
+You've written string 'What we have two nights seen.'.
+Length of this string is 29.
+439
