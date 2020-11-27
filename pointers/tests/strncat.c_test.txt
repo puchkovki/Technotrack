@@ -1,3 +1,0 @@
-You've written in s_1 'Hello, Hi, I'm f.ck'.
-Length of this string is 19.
-1. Ok!

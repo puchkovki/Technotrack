@@ -1,2 +1,0 @@
-You've written string 'fm'.
-Length of this string is 2.

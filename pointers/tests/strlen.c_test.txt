@@ -1,3 +1,0 @@
-You've written string 'Hi, I'm f.cking stuck! Why it's always me?'.
-Length of this string is 42.
-Ok!
