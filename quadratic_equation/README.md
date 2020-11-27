@@ -1,21 +1,22 @@
-1. To build a project in current directory and to save it in folder `_build`:
+Реализована функцию решения квадратного уравнения наилучшим способом с учетом всех требований промышленного программирования. Документация составлена с помощью документирующих комментариев Doxygen. 
+
+1. Сборка проекта в текущей директории и сохранение в папке `build`:
 ```
 cmake -H. -Bbuild
 ```
-2. Compile CMakelists, 
-Компиляции cnakelists, создание нужные папки и makefile
+2. Сборка проекта c тестированием в текущей директории, сохранение в папке `build`:
 ```
 cmake -H. -Bbuild -DBUILD_TESTS=ON  
 ```
-3. To build a project with tests in current directory and to save it in folder `_build`:
+3. Препроцессинг, компиляция и линковка:
 ```
 cmake --build build 
 ```
-4. To run tests:
+4. Тестирование:
 ```
 build/check
 ```
-5. To run tests in details and save result into the `res/test.txt` file:
+5. Тестирование с комментированием. Результат сохранен в файле `res/test.txt`:
 ```
 cmake --build build --target test -- ARGS=--verbose > res/test.txt
 ```
