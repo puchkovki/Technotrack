@@ -29,19 +29,19 @@ int main(void) {
 
     switch (roots) {
         case NO_ROOT:
-            printf("Equation has no rots!\n");
+            printf("Equation has no real rots!\n");
             break;
 
         case ONE_ROOT:
-            printf("The only root is %lf\n", r1);
+            printf("The only real root is %lf\n", r1);
             break;
 
         case TWO_ROOTS:
-            printf("Roots are %lf and %lf\n", r1, r2);
+            printf("Real roots are %lf and %lf\n", r1, r2);
             break;
 
         case INFINITE_ROOTS:
-            printf("There are infinite amount of roots\n");
+            printf("There are infinite amount of real roots\n");
             break;
 
         default:

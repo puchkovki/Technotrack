@@ -1,6 +1,6 @@
 // Copyright 2020 Puchkov Kyryll Technotrack
-#ifndef TECHNOTRACK_QUADRATIC_EQUATION_INCLUDE_SOLVE_EQUATION_HPP_
-#define TECHNOTRACK_QUADRATIC_EQUATION_INCLUDE_SOLVE_EQUATION_HPP_
+#ifndef QUADRATIC_EQUATION_INCLUDE_SOLVE_EQUATION_HPP_
+#define QUADRATIC_EQUATION_INCLUDE_SOLVE_EQUATION_HPP_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,4 +22,4 @@ typedef enum AmountOfRoots {
 AmountOfRoots solveEquation(const double a, const double b,
         const double c, double *r1, double *r2);
 
-#endif  // TECHNOTRACK_QUADRATIC_EQUATION_INCLUDE_SOLVE_EQUATION_HPP_
+#endif  // QUADRATIC_EQUATION_INCLUDE_SOLVE_EQUATION_HPP_

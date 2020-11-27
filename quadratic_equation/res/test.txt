@@ -13,7 +13,7 @@ test 1
 
 1: Test command: /home/hp/Github/Technotrack/quadratic_equation/build/check
 1: Test timeout computed to be: 10000000
-1: Running main() from /home/hp/.hunter/_Base/5659b15/2c824f9/8a1641b/Build/GTest/Source/googletest/src/gtest_main.cc
+1: Running main() from /home/hp/.hunter/_Base/5659b15/252be92/8a1641b/Build/GTest/Source/googletest/src/gtest_main.cc
 1: [==========] Running 4 tests from 1 test suite.
 1: [----------] Global test environment set-up.
 1: [----------] 4 tests from Quadratic

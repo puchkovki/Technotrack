@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -Wextra -pedantic -O3 -Wshadow -Wformat=2 -Wfloat-equal -Wcon
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hp/Github/Technotrack/quadratic_equation/include -isystem /home/hp/.hunter/_Base/5659b15/2c824f9/8a1641b/Install/include 
+CXX_INCLUDES = -I/home/hp/Github/Technotrack/quadratic_equation/include -isystem /home/hp/.hunter/_Base/5659b15/252be92/8a1641b/Install/include 
 

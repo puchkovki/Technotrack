@@ -80,8 +80,8 @@ check_EXTERNAL_OBJECTS =
 check: CMakeFiles/check.dir/tests/test.cpp.o
 check: CMakeFiles/check.dir/build.make
 check: libsolve_equation.a
-check: /home/hp/.hunter/_Base/5659b15/2c824f9/8a1641b/Install/lib/libgtest_maind.a
-check: /home/hp/.hunter/_Base/5659b15/2c824f9/8a1641b/Install/lib/libgtestd.a
+check: /home/hp/.hunter/_Base/5659b15/252be92/8a1641b/Install/lib/libgtest_maind.a
+check: /home/hp/.hunter/_Base/5659b15/252be92/8a1641b/Install/lib/libgtestd.a
 check: CMakeFiles/check.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hp/Github/Technotrack/quadratic_equation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable check"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/check.dir/link.txt --verbose=$(VERBOSE)
