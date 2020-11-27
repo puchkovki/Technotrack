@@ -1,0 +1,3 @@
+You've written string 'Hi, I'm testing strcpy! I hope it will work'.
+Length of this string is 43.
+Ok!

@@ -1,0 +1,6 @@
+You've written in s_2 'Hi, I'm testing strcpy! I hope it will wo'.
+Length of this string is 41.
+2. Ok!
+You've written in s_3 'Hi, I'm testing strcpy! I hope it will work'.
+Length of this string is 43.
+3. Ok!
